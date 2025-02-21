@@ -13,4 +13,4 @@ jobs:
           node-version: 'lts/*'
           cache: 'yarn'
       - run: yarn install
-      - run: API_URL=https://2ca08c2e.stackblitz-cr.pages.dev/ pnpm dlx pkg-pr-new@https://2ca08c2e.stackblitz-cr.pages.dev/stackblitz-labs/pkg.pr.new/pkg-pr-new@329 publish --yarn
+      - run: API_URL=https://2ca08c2e.stackblitz-cr.pages.dev/ npx pkg-pr-new@https://2ca08c2e.stackblitz-cr.pages.dev/stackblitz-labs/pkg.pr.new/pkg-pr-new@329 publish --yarn
