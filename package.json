@@ -1,0 +1,8 @@
+{
+  "name": "yarn-test-pkg-pr-new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Aslemammad/yarn-test-pkg-pr-new.git",
+  "author": "Mohammad Bagher Abiyat <zorofight94@gmail.com>",
+  "license": "MIT"
+}
