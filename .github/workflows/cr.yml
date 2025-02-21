@@ -14,5 +14,4 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install
       - run: pnpm build
-      - run: API_URL=https://2ca08c2e.stackblitz-cr.pages.dev/ pnpm dlx pkg-pr-new@https://2ca08c2e.stackblitz-cr.pages.dev/stackblitz-labs/pkg.pr.new/pkg-pr-new@329
-publish --yarn
+      - run: API_URL=https://2ca08c2e.stackblitz-cr.pages.dev/ pnpm dlx pkg-pr-new@https://2ca08c2e.stackblitz-cr.pages.dev/stackblitz-labs/pkg.pr.new/pkg-pr-new@329 publish --yarn
